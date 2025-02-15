@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgililer Günü Macerası</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(to bottom, #ff69b4, #ff1493);
+            font-family: Arial, sans-serif;
+        }
+        canvas {
+            border: 4px solid white;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.3);
+            image-rendering: pixelated;  /* Pixel art için keskin görüntü */
+            width: 800px;  /* Görüntü boyutu */
+            height: 800px;
+        }
+        .game-container {
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            margin-bottom: 20px;
+            font-size: 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="game-container">
+        <h1>❤️ Sevgililer Günü Macerası ❤️</h1>
+        <canvas id="gameCanvas" width="800" height="800"></canvas>
+    </div>
+    <script type="module" src="game.js"></script>
+</body>
+</html>
