@@ -7,7 +7,7 @@ canvas.width = 800;
 canvas.height = 800;  // Yüksekliği artırdım
 
 // Levels ve gameState'i import et
-import { levels, gameState } from './levels.js';
+import { levels, gameState } from '/levels.js';
 
 // Oyun ölçeği
 const SCALE = 2;
